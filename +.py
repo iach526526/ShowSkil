@@ -19,7 +19,7 @@ for col in range(1,n+1):
         or (col>mid+1 and (col-row)>mid) \
         or (row>mid and (row-col)>mid) \
          or (col>mid and row>mid and row+col-n>mid+1):
-        #十字兩撇,左上.右下,左上,左下
+        #十字兩撇,左上.左下,右上,右下
             print(' '*4,end='')
         else:
             print('%4d'%1,end='')
